@@ -1,0 +1,21 @@
+{
+  "name": "simpleApp",
+  "version": "1.0.0",
+  "description": "This repository contains the starter code for the [Building Web Applications with hapi course on Pluralsight.com](http://www.pluralsight.com/courses/hapi-building-web-applications).",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "boom": "^5.2.0",
+    "good": "^7.3.0",
+    "handlebars": "^4.0.10",
+    "hapi": "^8.8.1",
+    "hapi-auth-cookie": "^7.0.0",
+    "joi": "^10.6.0",
+    "uuid": "^3.1.0"
+  }
+}
