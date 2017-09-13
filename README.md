@@ -1,6 +1,7 @@
 #simple web application using hapi 
 
-instruction 
+Instruction :
+
 1- git clone "https://github.com/ayatalat/simpleApp"
 
 2- get into simpleApp directory 
