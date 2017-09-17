@@ -22,7 +22,16 @@ server.ext('onPreResponse',function(req,reply){
         reply.continue();
     }
 })
+server.register(require('hapi-auth-cookie'),function(err){
+   if(err) console.log(err);
+   server.auth.strategy('default','cookie',{
+       password:'myPassword',
+       redirectTo:'/login',
+       isSecure:false
+       })
+       server.auth.default('default');
 
+})
 
 server.route(require('./lib/routes'))
 
